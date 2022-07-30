@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="nft"><img class="eye" src="imgs/icon-view.svg" alt=""></div>
+        <div class="content">
+            <h2 class="name">NEON WAVES</h2>
+            <p class="desc">Our NEON WAVES collection promotes the beaty of the world.</p>
+            
+            <div class="section">
+                <div class="eth">
+                    <img src="imgs/icon-ethereum.svg" alt="">
+                    <p class="price">1.041 ETH</p>
+                </div>
+                <div class="time">
+                    <img src="imgs/icon-clock.svg" alt="">
+                    <p>3 days left</p>
+                </div>
+            </div>
+            
+        <div class="profile">
+            <img src="imgs/HD-wallpaper-world-at-night-2020-shellz-art-badass-black-blue-city-code-cool-cyber-cyberpunk-fiction-game-gamer-geek-glow-hack-hacker-headphones-lights-navy-neon-nerd-new-year-programmer-sci-thumbnail.jpg" alt="">
+            <a href="https://www.frontendmentor.io/profile/jimmyhachem" class="creator">Creation of </a>
+        </div>
+        </div>
+    </div>
+
+    <script>
+        const eye = document.querySelector('.eye')
+        const nft =document.querySelector('.nft')
+
+        eye.onclick = function(){
+            nft.classList.toggle('active')
+            eye.classList.toggle('active')
+        }
+    </script>
+    
+</body>
+</html>
